@@ -1,6 +1,6 @@
 {
   "name": "express-ratify",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "Validation for express",
   "author": "Jamie Fisher <devjamiefisher@gmail.com>",
   "contributors": [{
@@ -13,14 +13,7 @@
     "postdeploy": "echo ive deployed",
     "prepublish": "echo prepublishing"
   },
-  "jam": {
-    "main": "web/lib/expressRatify.js",
-    "include": [
-      "web/lib/expressRatify.js",
-      "readme.md",
-      "LICENSE"
-    ]
-  },
+  "main": "lib/expressRatify.js",
   "repository": {
   "type": "git",
   "url": "https://github.com/JAFisher/expressRatify"

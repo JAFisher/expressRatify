@@ -1,5 +1,5 @@
 var express = require('express');
-var validation = require("../lib/expressRatify");
+var validation = require("express-ratify");
 var router = express.Router();
 
 /* GET home page. */
