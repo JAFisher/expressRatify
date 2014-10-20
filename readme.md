@@ -1,13 +1,17 @@
 Author: Jamie Fisher
+
 License: MIT
 
-Install: npm install expressValidation
-
+`````
+Install:
+npm install expressValidation
+`````
 Tests are run in the web directory:
 vows test/*
 
 Express validation is a simple way of testing your parameters via the query string (GET) or (POST) parameters.
 
+```````
 var validation = require("validation");
 @param *Array of {type,size,conditional,param};
 @param *Express Request.
@@ -23,7 +27,7 @@ var message = validation([{
     message: "All your fields are valid.",
     pass: true | false
 }
-
+``````
 contributions:
     If you wish to add another type to the validation please write a test user. little reason of why your validation is useful in your pull request would be great for a little of insight on my part to :).
 
