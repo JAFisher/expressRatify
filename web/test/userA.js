@@ -2,7 +2,7 @@
 
 var vows = require('vows');
 var assert = require('assert');
-var validation = require("../lib/expressValidation");
+var validation = require("../lib/expressRatify");
 
 
 var responseMock = {

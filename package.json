@@ -1,5 +1,5 @@
 {
-  "name": "expressvalidation",
+  "name": "express-ratify",
   "version": "0.0.1",
   "description": "Validation for express",
   "author": "Jamie Fisher <devjamiefisher@gmail.com>",
@@ -13,10 +13,10 @@
     "postdeploy": "echo ive deployed",
     "prepublish": "echo prepublishing"
   },
-  "main": "web/lib/expressValidation.js",
+  "main": "web/lib/expressRatify.js",
   "repository": {
   "type": "git",
-  "url": "https://github.com/JAFisher/expressValidation"
+  "url": "https://github.com/JAFisher/expressRatify"
 },
   "dependencies": {
     "underscore": "~1.7.0"
