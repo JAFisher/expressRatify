@@ -4,7 +4,7 @@ License: MIT
 
 `````
 Install:
-npm install expressValidation
+npm install expressvalidation
 `````
 Tests are run in the web directory:
 vows test/*
