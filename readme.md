@@ -12,7 +12,7 @@ vows test/*
 Express validation is a simple way of testing your parameters via the query string (GET) or (POST) parameters.
 
 ```````
-var validation = require("expresss-ratify");
+var validation = require("express-ratify");
 @param *Array of {type,size,conditional,param};
 @param *Express Request.
 
