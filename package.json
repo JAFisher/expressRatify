@@ -1,0 +1,30 @@
+{
+  "name": "expressValidation",
+  "version": "0.0.1",
+  "description": "Validation for express",
+  "author": "Jamie Fisher <devjamiefisher@gmail.com>",
+  "contributors": [{
+  "name": "Jamie Fisher",
+  "email": "devjamiefisher@gmail.com"
+}],
+  "scripts": {
+    "test": "vows web/test/*",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed",
+    "prepublish": "echo prepublishing"
+  },
+  "main": "web/lib/expressValidation.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/JAFisher/expressValidation"
+},
+  "dependencies": {
+    "underscore": "~1.7.0"
+  },
+  "keywords": [
+  "express",
+  "validation",
+  "validator"
+],
+  "license": "MIT"
+}
