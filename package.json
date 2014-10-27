@@ -1,6 +1,6 @@
 {
   "name": "express-ratify",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Validation for express",
   "author": "Jamie Fisher <devjamiefisher@gmail.com>",
   "contributors": [{
