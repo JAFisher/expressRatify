@@ -26,6 +26,11 @@ var message = validation([{
 @return {
     message: "All your fields are valid.",
     pass: true | false
+    ratify :{
+        params : {
+            // all your fields from get and post go in here.
+        }
+    }
 }
 ``````
 contributions:
